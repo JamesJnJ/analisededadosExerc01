@@ -1,6 +1,6 @@
 ########################################
 # Teste 1B          
-# Nome(s): 
+# Nome(s): James Andrade e Renann Camargo
 ########################################
 
 #ATENÇÃO: Você precisa fazer o download do arquivo chustomer_churn.csv e
@@ -19,10 +19,17 @@ customer_churn = read.table("customer_churn.csv", sep=",", header = TRUE, string
 ########################################
 # Item 1 (0.5 ponto)
 ########################################
+customer_churn                                  #7500 clientes
+customer_churn <- unique(customer_churn)        
+customer_churn                                  #7043 clientes exclusivos
 
 ########################################
 # Item 2 (0.5 ponto)
 ########################################
+customer_churn$Partner <- as.logical(customer_churn$Partner == "Yes")
+customer_churn$Dependents <- as.logical(customer_churn$Dependents == "Yes")
+customer_churn$Churn <- as.logical(customer_churn$Churn == "Yes")
+customer_churn
 
 ########################################
 # Item 3 (0.5 ponto)
