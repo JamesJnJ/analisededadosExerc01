@@ -1,6 +1,6 @@
 ########################################
 # Teste 1B          
-# Nome(s): James Andrade e Renann Camargo
+# Nome(s): James Andrade Moreno Jr e Renann Camargo
 ########################################
 
 #ATENÇÃO: Você precisa fazer o download do arquivo chustomer_churn.csv e
